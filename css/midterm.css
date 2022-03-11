@@ -83,6 +83,7 @@ nav ul li a:hover {
 nav ul li .active {
 	text-decoration: underline;
 	font-weight: 900;
+	font-size: 35px;
 }
 
 .nav-list {
@@ -203,7 +204,7 @@ p {
 .contact-information {
 	text-align: center;
 	padding-top: 5rem;
-	padding-bottom: 5rem;
+	padding-bottom: 3rem;
 	background-color: #F2F2F2;
 }
 
@@ -223,4 +224,65 @@ h5 {
 .contact-information p {
 	padding-bottom: 2rem;
 	font-size: 21px;
+}
+
+/* ====== END OF CONTACT INFORMATION ====== */
+
+/* ====== CONTACT FORM ====== */
+
+.contact-form {
+	margin-left: 20rem;
+	margin-right: 20rem;
+	font-family: 'Lato', sans-serif;
+}
+
+.contact-form p{
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	margin-top: 5rem;
+	margin-bottom: 2rem;
+}
+
+form {
+	margin: 15px;
+}
+
+.thanks_form {
+	display: block;
+	width: 99%;
+	margin: 5px;
+}
+
+.short {
+	height: 40px;
+}
+
+.message {
+	height: 170px;
+}
+
+.submit-button {
+	display: block;
+	margin: 5px;
+	background: black;
+	color: white;
+	border: none;
+	border-radius: 25px;
+	font-family: 'Lato', sans-serif;
+	height: 25px;
+	width: 70px;
+	font-weight: 700;
+}
+
+/* ====== END OF CONTACT FORM ====== */
+
+/* ====== EMBED MAP ====== */
+
+.map {
+	margin-top: 5rem;
+}
+
+iframe {
+	margin: 0 auto;
+	width: 100%;
 }
