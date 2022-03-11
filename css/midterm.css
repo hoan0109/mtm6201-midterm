@@ -101,7 +101,7 @@ nav ul li .active {
 }
 
 .home-banner h2 {
-	padding-top: 20%;
+	padding-top: 200px;
 	font-size: 80px;
 	color: white;
 	text-align: center;
@@ -109,6 +109,44 @@ nav ul li .active {
 }
 
 /* ====== END OF HOME BANNER ====== */
+
+/* ====== ABOUT BANNER ====== */
+
+.about-banner {
+	background-image: url(../images/desktop_about_banner_600px.png);
+	background-size: cover;
+	height: 600px;
+	width: 100%;
+}
+
+.about-banner h2 {
+	padding-top: 250px;
+	font-size: 80px;
+	color: white;
+	text-align: center;
+	font-family: 'Cantata One', serif;
+}
+
+/* ====== END OF ABOUT BANNER ====== */
+
+/* ====== CONTACT BANNER ====== */
+
+.contact-banner {
+	background-image: url(../images/desktop_contact_banner_600px.png);
+	background-size: cover;
+	height: 600px;
+	width: 100%;
+}
+
+.contact-banner h2 {
+	padding-top: 250px;
+	font-size: 80px;
+	color: white;
+	text-align: center;
+	font-family: 'Cantata One', serif;
+}
+
+/* ====== END OF ABOUT BANNER ====== */
 
 /* ====== HOME TEXT SECTION ====== */
 
@@ -157,3 +195,4 @@ p {
 	padding-left: 5rem;
 	padding-right: 5rem;
 }
+
