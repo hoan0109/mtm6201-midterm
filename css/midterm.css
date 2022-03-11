@@ -123,3 +123,7 @@ p {
 .home-text-section {
 	padding: 5rem;
 }
+
+.readmore-button {
+	background-color: orange;
+}
