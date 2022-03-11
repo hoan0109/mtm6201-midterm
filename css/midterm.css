@@ -280,10 +280,45 @@ form {
 
 .map {
 	margin-top: 5rem;
-	margin-bottom: 5rem;
 }
 
 iframe {
 	margin: 0 auto;
 	width: 100%;
+}
+
+/* ====== END OF EMBED MAP ====== */
+
+/* ====== FOOTER SECTION ====== */
+
+footer {
+	margin-top: 3rem;
+	text-align: center;
+}
+
+.footer-logo {
+	margin-bottom: 2rem;
+}
+
+footer h4 {
+	font-family: 'Lato', sans-serif;
+	font-size: 25px;
+	font-weight: 900;
+	margin-bottom: 1rem;
+}
+
+.footer-list {
+	font-family: 'Lato', sans-serif;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	font-size: 18px;
+}
+
+footer p {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	color: white;
+	background-color: black;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
