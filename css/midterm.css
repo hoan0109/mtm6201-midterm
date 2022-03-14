@@ -76,6 +76,8 @@ html:lang(en) {
 	}
 }
 
+/* ====== END OF ANIMATIONS ====== */
+
 /* ====== MOBILE CSS ====== */
 
 /* === NAV BAR === */
@@ -309,6 +311,11 @@ iframe {
 
 /* ====== END OF EMBED MAP ====== */
 
+/* ========== ABOUT PAGE ========== */
+.my-story-section {
+	padding-top: 5rem;
+}
+
 /* ====== FOOTER SECTION ====== */
 
 footer {
@@ -347,3 +354,4 @@ footer p {
 	padding-top: 15px;
 	padding-bottom: 15px;
 }
+
