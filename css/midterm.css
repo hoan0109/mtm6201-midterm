@@ -134,6 +134,18 @@ nav ul li .active {
 
 /* ====== END OF HOME BANNER ====== */
 
+/* ====== GALLERY SECTION ====== */
+
+.gallery-section {
+	text-align: center;
+}
+
+.gallery-section img{
+	padding-bottom: 1rem;
+}
+
+/* ====== END OF GALLERY SECTION ====== */
+
 /* ====== ABOUT BANNER ====== */
 
 .about-banner {
@@ -212,12 +224,38 @@ p {
 
 /* ====== END OF HOME TEXT SECTION ====== */
 
+/* ====== MY STORY SECTION ====== */
+
+.my-story-section {
+	padding-top: 5rem;
+	padding-left: 5rem;
+	padding-right: 5rem;
+	text-align: center;
+}
+
+.my-story-section p {
+	padding-top: 2rem;
+}
+
+.story-image {
+	width: 100%;
+	max-width: 1000px;
+}
+
+/* ====== MY STORY SECTION ====== */
+
 /* ====== GALLERY SECTION ====== */
 
 .gallery-section {
 	padding-top: 5rem;
 	padding-left: 5rem;
 	padding-right: 5rem;
+}
+
+.gallery-section img {
+	width: 100%;
+	display: block;
+	max-width: 1000px;
 }
 
 /* ====== END OF GALLERY SECTION ====== */
@@ -357,7 +395,9 @@ footer {
 	text-align: center;
 }
 
-/* ====== DESKTOP CSS ====== */
+/* =================================
+============ DESKTOP CSS ===========
+==================================== */
 
 @media screen and (min-width: 830px) {
 
@@ -400,6 +440,12 @@ footer {
 	.copyright {
 		text-align: center;
 	}
+
+	/* ====== MY STORY SECTION ====== */
+
+
+
+	/* ====== MY STORY SECTION ====== */
 
 }
 
