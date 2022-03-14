@@ -87,6 +87,7 @@ nav {
 	background-color: white;
 	text-align: center;
 	display: block;
+
 }
 
 nav ul li a {
@@ -327,7 +328,7 @@ footer {
 	margin-bottom: 2rem;
 }
 
-footer h4 {
+.footer-list2 {
 	font-family: 'Lato', sans-serif;
 	font-size: 25px;
 	font-weight: 900;
@@ -346,12 +347,59 @@ footer h4 {
 	letter-spacing: 1rem;
 }
 
-footer p {
+.copyright {
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
 	color: white;
 	background-color: black;
 	padding-top: 15px;
 	padding-bottom: 15px;
+	text-align: center;
+}
+
+/* ====== DESKTOP CSS ====== */
+
+@media screen and (min-width: 760px) {
+
+	/* === NAV BAR === */
+
+	nav {
+		display: flex;
+		line-height: 100px;
+		justify-content: space-between;
+	}
+
+	.nav-list {
+		padding-bottom: 0rem;
+	}
+	
+	nav ul li {
+		display: inline-block;
+	}
+
+	nav ul li a {
+		letter-spacing: 2px;
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+
+	nav ul li .active {
+		font-size: 25px;
+		font-weight: 700;
+	}
+
+	/* === Footer === */
+
+	footer {
+		text-align: left;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+	}
+
+	.copyright {
+		text-align: center;
+	}
+
 }
 
