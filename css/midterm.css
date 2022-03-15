@@ -76,6 +76,11 @@ html:lang(en) {
 	}
 }
 
+.gallery-section img:hover {
+	transform: scale(1.5);
+	transition: 1s;
+}
+
 /* ====== END OF ANIMATIONS ====== */
 
 /* ====== MOBILE CSS ====== */
