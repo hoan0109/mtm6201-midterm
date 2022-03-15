@@ -259,6 +259,7 @@ p {
 	display: block;
 	min-width: 400px;
 	max-width: 600px;
+	margin: 0 auto;
 }
 
 /* ====== END OF GALLERY SECTION ====== */
@@ -363,6 +364,7 @@ iframe {
 footer {
 	margin-top: 3rem;
 	text-align: center;
+	clear: both;
 }
 
 .footer-logo {
@@ -446,7 +448,17 @@ footer {
 
 	/* ====== MY STORY SECTION ====== */
 
+	.story-image {
+		float: left;
+		padding-bottom: 5rem;
+		padding-right: 1rem;
+	}
 
+	.my-story-section {
+		max-width: 1000px;
+		text-align: center;
+		margin: 0 auto;
+	}
 
 	/* ====== MY STORY SECTION ====== */
 
