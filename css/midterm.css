@@ -257,6 +257,8 @@ p {
 .gallery-section img {
 	width: 100%;
 	display: block;
+	min-width: 400px;
+	max-width: 600px;
 }
 
 /* ====== END OF GALLERY SECTION ====== */

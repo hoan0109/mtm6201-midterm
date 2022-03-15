@@ -36,11 +36,55 @@
 
         <div class="gallery-section">
             <h3>Gallery</h3>
-            <img src="images/gallery_image1_600px.jpg">
-            <img src="images/gallery_image2_600px.jpg">
-            <img src="images/gallery_image3_600px.jpg">
-            <img src="images/gallery_image4_600px.jpg">
-            <img src="images/gallery_image5_600px.jpg">
+            <picture>
+                <source srcset="images/gallery_image1_400px.jpg"
+                        media="(max-width: 830px)"/>
+
+                <source srcset="images/gallery_image1_600px.jpg"
+                        media="(min-width: 830px)"/>
+
+                <img class="gallery_image1" src="images/gallery_image1_600px.jpg" alt="gallery_image1">
+            </picture>
+            
+            <picture>
+                <source srcset="images/gallery_image2_400px.jpg"
+                        media="(max-width: 830px)"/>
+
+                <source srcset="images/gallery_image2_600px.jpg"
+                        media="(min-width: 830px)"/>
+
+                <img class="gallery_image2" src="images/gallery_image2_600px.jpg" alt="gallery_image2">
+            </picture>
+
+            <picture>
+                <source srcset="images/gallery_image3_400px.jpg"
+                        media="(max-width: 830px)"/>
+
+                <source srcset="images/gallery_image3_600px.jpg"
+                        media="(min-width: 830px)"/>
+
+                <img class="gallery_image3" src="images/gallery_image3_600px.jpg" alt="gallery_image3">
+            </picture>
+
+            <picture>
+                <source srcset="images/gallery_image4_400px.jpg"
+                        media="(max-width: 830px)"/>
+
+                <source srcset="images/gallery_image4_600px.jpg"
+                        media="(min-width: 830px)"/>
+
+                <img class="gallery_image4" src="images/gallery_image4_600px.jpg" alt="gallery_image4">
+            </picture>
+
+            <picture>
+                <source srcset="images/gallery_image5_400px.jpg"
+                        media="(max-width: 830px)"/>
+
+                <source srcset="images/gallery_image5_600px.jpg"
+                        media="(min-width: 830px)"/>
+
+                <img class="gallery_image5" src="images/gallery_image5_600px.jpg" alt="gallery_image5">
+            </picture>
         </div>
     </main>
 
