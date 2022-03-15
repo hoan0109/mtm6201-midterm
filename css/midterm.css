@@ -460,7 +460,11 @@ footer {
 		margin: 0 auto;
 	}
 
-	/* ====== MY STORY SECTION ====== */
+	.my-story-section p {
+		padding-top: 0rem;
+	}
+
+	/* ====== END OF MY STORY SECTION ====== */
 
 }
 
